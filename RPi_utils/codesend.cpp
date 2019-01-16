@@ -49,7 +49,6 @@ int main(int argc, char *argv[]) {
     RCSwitch mySwitch = RCSwitch();
     if (protocol != 0) mySwitch.setProtocol(protocol);
     if (pulseLength != 0) mySwitch.setPulseLength(pulseLength);
-    mySwitch.setRepeatTransmit(170);
     mySwitch.enableTransmit(PIN);
     
     mySwitch.send(code, 24);
