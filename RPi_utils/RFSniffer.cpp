@@ -52,7 +52,6 @@ int main(int argc, char *argv[]) {
           printf("Received rawdata %i\n", mySwitch.getReceivedRawdata() );
           printf("Received delay %i\n", mySwitch.getReceivedDelay() );
           printf("Received protocol %i\n", mySwitch.getReceivedProtocol() );
-          printf("Received pulselength %i\n", mySwitch.pulseLength() );
         }
     
         fflush(stdout);
